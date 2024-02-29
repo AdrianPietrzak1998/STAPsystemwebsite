@@ -1,0 +1,8 @@
+{
+    "editor.minimap.enabled": false,
+    "scm.diffDecorations": "none",
+    "multiDiffEditor.experimental.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true
+}
