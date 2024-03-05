@@ -765,7 +765,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #00C87B;
+  color: #ffca18;
 }
 
 /*--------------------------------------------------------------
@@ -1301,7 +1301,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #00C87B;
+  color: #ffca18;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1320,8 +1320,8 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #00C87B;
-  color: #00C87B;
+  border: 2px solid #f2bf17;
+  color: #ffca18;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1344,8 +1344,27 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #ffca18;
+  background: #fdd348;
   border-color: #ffca18;
+}
+
+.pricing .pricingButton {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 50px;
+  border: 2px solid #f2bf17;
+  color: #ffca18;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  background: #fff;
+}
+
+.pricing .pricingButton:hover {
+  background: #ffca18;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1518,7 +1537,7 @@ section {
 }
 
 .contact  button[type=submit]:hover {
-  background: #896b09;
+  background: #eab710;
 }
 
 @keyframes animate-loading {
