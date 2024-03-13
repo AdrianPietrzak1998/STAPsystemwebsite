@@ -743,6 +743,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: #111;
 }
 
 .services .title a {
@@ -753,10 +754,12 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #111;
 }
 
 .services .icon-box:hover .title a,
-.services .icon-box:hover .description {
+.services .icon-box:hover .description,
+.services .icon-box:hover .title {
   color: #fff;
 }
 
@@ -767,6 +770,8 @@ section {
 .services .icon-box:hover .icon i {
   color: #ffca18;
 }
+
+
 
 /*--------------------------------------------------------------
 # More Services
@@ -1557,7 +1562,7 @@ section {
   padding: 15px 0;
   background: #f8f8f8;
   min-height: 40px;
-  margin-top: 86px;
+  margin-top: 108px;
 }
 
 @media (max-width: 992px) {
